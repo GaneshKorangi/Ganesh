@@ -1,0 +1,252 @@
+*{ outline: 0;
+    padding: 0;
+    margin: 0;
+}
+* {box-sizing: border-box}
+body {font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; margin:0}
+
+.slideshow{ 
+    position: relative;
+}
+
+.Slides {display: none}
+
+.numbertext{ 
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    top: 0;
+    position: absolute;
+}
+
+div img{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+.dot{ width: 15px;
+    height: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+     border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    display: none;
+}
+.active{ background-color: #717171;}
+
+.fade{
+    animation: fade 1.5s;
+}
+@keyframes fade{
+    from{ opacity: .4;} to{opacity: 1;}
+}
+.name{
+    color:#1e9ff5;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 45%;
+}
+.n1{ left: 17%;}
+.n2{ left: 25%;}
+.n3{ left: 25%;}
+.n4{ left: 29%;}
+
+.design{
+    color: #b90760;
+    font-size: 40px;
+    padding: 0;
+    position: absolute;
+    bottom: 30px;
+    left: 80%;
+  }
+
+.manufa{ 
+    color: #f33e98;
+    font-size: 40px;
+    padding: 0;
+    position: absolute;
+    bottom: 30px;
+    left: 75%;
+  }
+.integrat{
+    color: #f33e98;
+    font-size: 40px;
+    padding: 0;
+    position: absolute;
+    bottom: 30px;
+    left: 60%;
+}
+.myicon{ 
+    width: 35%;
+    height: auto; 
+    padding: 10px;
+    padding-right: 0;
+    margin:0;
+    display: block;
+}
+
+.text{ font-size: 40px;
+    color: #0373bd;
+   /* #046cb1*/
+    top: 20px;
+    left: 110px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.subtitle{
+    font-size: 20px;
+    color: #87cbf8;
+    font-family: 'Times New Roman', Times, serif;
+   /* #046cb1*/
+    left: -110px;
+    bottom: 15px;
+    position: relative;
+    padding-bottom: 5px;
+    margin: 0;
+}
+ul{ 
+    list-style-type: none;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    position: sticky;
+    top: 0;
+}
+li{
+    display: inline-block;
+}
+li>a{
+    float: right;
+    left: 150px;
+    top: -30px;
+    text-decoration: none;
+    display:block;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 10px 15px;
+    margin: 0px;
+    text-align: center;
+    color: lightgray;
+    position: relative;
+}
+
+li >a:hover, .dropdown:hover .dropbtn{ color: white;
+    background-color: #087dca;
+}
+
+.hom a{ color: white;
+    background-color:  #087dca;
+}
+
+/*Our services sub-nav*/
+.dropbtn{
+    display: block;
+    color: lightgray;
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    min-width: 100px;
+    margin: 0;    
+    position: absolute;
+
+}
+.dropdown-content a{
+    display: block;
+    padding: 10px;
+    color: rgb(233, 239, 243);
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    left: 70px;
+    background-color:  rgb(103, 117, 134);
+    box-shadow: 5px 5px 10px lightskyblue;
+}
+
+.dropdown-content a:hover{
+    color: rgb(12, 12, 12);
+    background-color: skyblue;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /*Home page*/
+  p{
+      margin: 0 40px;
+      text-indent: 70px;
+      text-align: justify;
+      line-height: 1.8;
+      color: rgba(0, 0, 0, 0.377);
+  }
+
+  h2{
+    color: #0373bd;
+      margin-left: 40px;
+  }
+
+.imgcontain{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+}
+.gallery{
+    width: 290px;
+    float: left;
+    margin: 5px;
+}
+.imgtext{
+    text-align: center;
+}
+.gallery{
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 5%;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+.featureimg{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    bottom: auto;
+    background-color: #046cb1;
+    color: black;
+    overflow: hidden;
+}
+.footertitle{ float:left;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.copyright{
+    text-align: center;
+    position: relative;
+    bottom: -15px;
+    left: 60px;
+}
+
+.fa{
+    color: black;
+    position: relative;
+    top: 14px;
+    right: -250px;
+    margin: 5px;
+    text-decoration: none;
+}
+body{ margin-bottom: 5px;}
+
